@@ -1,0 +1,376 @@
+body {
+  background-color: #D6D6D6;
+}
+
+#navbarNav {
+  float: right;
+}
+
+.bg-dark {
+  background-color: rgba(17,17,17,.95) !important;
+  transition: 200ms ease;
+}
+
+#navbar {
+  transition: 1s;
+  margin-top: 1.2rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+#navbar2 {
+  transition: 1s;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* fadeIn */
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+
+.gifs{
+  height: 70%;
+  border-radius: 0.4rem;
+}
+
+#delay, #delay2, #delay3, #delay4{
+  color: white;
+  animation: fadeIn 2s;
+}
+
+
+/* to bring back the navbar */
+.bg-dark.scrolled {
+  display: block !important;
+}
+
+.bg1 {
+  background: linear-gradient(rgba(0.3, 0, 0.4, 0.6),
+  rgba(0.9, 0, 0, 0.6)), url("https://images.pexels.com/photos/450055/pexels-photo-450055.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+}
+
+.bg2{
+  background: linear-gradient(rgba(0.3, 0, 0.4, 0.6),
+  rgba(0.9, 0, 0, 0.6)), url("https://images.pexels.com/photos/450055/pexels-photo-450055.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+  background-position: center;
+  height: 1500px;
+}
+
+/* Ash Mohseni */
+.ml11 {
+  margin-top: 2rem;
+  margin-left: 3rem;
+  font-weight: 700;
+  font-size: 4.5em;
+  font-family: 'Amatic SC', cursive;
+  letter-spacing: 0.36rem;
+  color: #F6F6F6;
+}
+
+.ml11 .text-wrapper {
+  position: relative;
+  display:inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+.ml11 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 3px;
+  background-color: #fff;
+  transform-origin: 0 50%;
+}
+.ml11 .line1 {
+  top: 0;
+  left: 0;
+}
+.ml11 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+/* End Ash Mohseni */
+
+
+
+
+
+
+
+
+
+
+
+/* Start Junior Developer */
+.ml12 {
+  margin-left: 3rem;
+  font-weight: 700;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 6.8em;
+  color: #F6F6F6;
+}
+.ml12 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+.ml12 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 3px;
+  background-color: #fff;
+  transform-origin: 0 50%;
+}
+.ml12 .line1 {
+  top: 0;
+  left: 0;
+}
+.ml12 .letter2 {
+  display: inline-block;
+  line-height: 1em;
+}
+/* End Junior Developer */
+
+
+/* Start About Me */
+.ml6 {
+  position: relative;
+  font-weight: 700;
+  font-size: 6.3em;
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+.ml6 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+.ml6 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.content {
+  /* height: 600px; */
+  background: linear-gradient(rgba(0.3, 0, 0.4, 0.6),
+      rgba(0.9, 0, 0, 0.6)), url("https://images.pexels.com/photos/450055/pexels-photo-450055.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #F6F6F6;
+  height: 700px;
+}
+
+.skill {
+  /* height: 600px; */
+  background: linear-gradient(rgba(0.3, 0, 0.4, 0.6),
+      rgba(0.9, 0, 0, 0.6)), url("https://images.pexels.com/photos/450055/pexels-photo-450055.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #F6F6F6;
+  height: 840px;
+}
+
+.projects {
+  /* height: 600px; */
+  background: linear-gradient(rgba(0.3, 0, 0.4, 0.6),
+      rgba(0.9, 0, 0, 0.6)), url("https://images.pexels.com/photos/450055/pexels-photo-450055.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  background-position: center;
+  color: #F6F6F6;
+  height: 1000px;
+}
+
+span{
+  font-weight: bold;
+}
+.aboutMe{
+  font-size: 1.5rem;
+  font-family: 'News Cycle', sans-serif;
+  color: white;
+  margin-left: 20rem;
+  margin-right: 20rem;
+  margin-top: -5rem;
+  text-align: justify;
+  background-color: rgba(199, 201, 200, 0.3);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+/* End About Me */
+
+
+/* second affect */
+.about {
+  max-width: 600px;
+  /* margin: 0 auto; */
+  /* margin-top: 5rem; */
+  padding: 100px 0;
+  transform-style: preserve-3d;
+  transform: perspective(800px);
+}
+
+/* Navbar underline */
+#underline {
+  list-style: none;
+  position: relative;
+  display: inline;
+  margin-right: 10px;
+}
+
+#underline::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -2px;
+  width: 0px;
+  height: 1.3px;
+  background: white;
+  transition: all 0.35s;
+}
+
+#underline:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+/* Start Skills */
+.ml13 {
+  font-size: 6.9em;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-transform: uppercase;
+  /* letter-spacing: 0.5em; */
+  font-weight: 900;
+  margin-left: 2rem;
+  margin-top: -3rem;
+}
+
+.ml14 {
+  font-size: 6.9em;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-transform: uppercase;
+  /* letter-spacing: 0.5em; */
+  font-weight: 900;
+  margin-left: 2rem;
+  margin-top: -4rem;
+  margin-bottom: 1rem;
+}
+
+.project-margin{
+  margin-top: -5rem;
+}
+
+h3{
+  font-family: 'News Cycle', sans-serif;
+}
+hr{
+  border: 0;
+   clear:both;
+   display:block;
+   width: 70%;
+   background-color:#EEE;
+   height: 2px;
+   border-radius: 0.4rem;
+}
+.projects h3{
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+}
+
+.projects p{
+  font-family: 'BenchNine', sans-serif;
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+}
+
+h1{
+  font-weight: bold;
+}
+
+.ml13 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.skill-img{
+  width:25%;
+  transition: all 1.5s ease;
+}
+
+.skill-img:hover{
+    /* width:30%; */
+    transform: scale(1.3);
+    transition: all 1.5s ease;
+}
+
+.skill-img2{
+  border-radius:0.45rem;
+  border-style: solid;
+  border-width: 3px;
+  width:100%;
+  transition: all 1.0s ease;
+  cursor: pointer;
+  border-color: #F2F2F2;
+}
+
+.skill-img2:hover{
+    /* width:30%; */
+    border-style:solid;
+    border-color: #171717;
+    transform: scale(1.1);
+    transition: all 1.0s ease;
+
+}
+
+/* #on{
+  background-color: none;
+
+} */
+
+.container{
+  margin-top:-6rem;
+}
+/* End Skills */
+
+@media only screen and (max-width: 968px) {
+.aboutMe{
+  margin-left: 0rem;
+  margin-right:0rem;
+  font-size: 1rem;
+}
+.ml12, .ml11, .ml6, .ml13{
+  font-size: 3rem;
+}
+h3{
+  font-size: 1.1rem;
+}
+
+#navbar{
+  min-height: 60px;
+  max-height: 300px;
+}
+
+}
