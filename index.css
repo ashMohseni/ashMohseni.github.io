@@ -101,7 +101,7 @@ body {
 
 .bg1 {
   background: linear-gradient(rgba(0.3, 0, 0.4, 0.6),
-  rgba(0.9, 0, 0, 0.6)), url("resources/background.png");
+  rgba(0.3, 0, 0.4, 0.6)), url("resources/background.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -111,7 +111,7 @@ body {
 
 .bg2{
   background: linear-gradient(rgba(0.3, 0, 0.4, 0.6),
-  rgba(0.9, 0, 0, 0.6)),  url("resources/background.png");
+  rgba(0.3, 0, 0.4, 0.6)), url("resources/background.png");
   background-size: cover;
   background-position: center;
   height: 1500px;
@@ -212,7 +212,7 @@ body {
 .content {
   /* height: 600px; */
   background: linear-gradient(rgba(0.3, 0, 0.4, 0.6),
-      rgba(0.9, 0, 0, 0.6)), url("resources/background.png");
+  rgba(0.3, 0, 0.4, 0.6)), url("resources/background.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -224,7 +224,7 @@ body {
 .skill {
   /* height: 600px; */
   background: linear-gradient(rgba(0.3, 0, 0.4, 0.6),
-  rgba(0.9, 0, 0, 0.6)),  url("resources/background.png");
+  rgba(0.3, 0, 0.4, 0.6)), url("resources/background.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -236,7 +236,7 @@ body {
 .projects {
   /* height: 600px; */
   background: linear-gradient(rgba(0.3, 0, 0.4, 0.6),
-  rgba(0.9, 0, 0, 0.6)), url("resources/background.png");
+  rgba(0.3, 0, 0.4, 0.6)), url("resources/background.png");
   background-size: cover;
   background-position: center;
   background-position: center;
@@ -266,16 +266,11 @@ span{
 /* second affect */
 .about {
   max-width: 600px;
-  /* margin: 0 auto; */
-  /* margin-top: 5rem; */
   padding: 100px 0;
   transform-style: preserve-3d;
   transform: perspective(800px);
 }
 
-.nav-link{
-  /* margin-right: -15px; */
-}
 
 /* Navbar underline */
 #underline {
@@ -306,7 +301,6 @@ span{
   font-size: 6.9em;
   font-family: 'Source Sans Pro', sans-serif;
   text-transform: uppercase;
-  /* letter-spacing: 0.5em; */
   font-weight: 900;
   margin-left: 2rem;
   margin-top: -3rem;
