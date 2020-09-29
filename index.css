@@ -77,7 +77,7 @@ body {
 
 #icon{
   padding-right: 2.9rem;
-  opacity: 0.7;
+  opacity: 0.6;
   transition: all 0.4s;
 }
 
@@ -186,9 +186,9 @@ body {
 /* Start Junior Developer */
 .ml12 {
   margin-left: 3rem;
-  font-weight: 700;
+  font-weight: 300;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 6.8em;
+  font-size: 4.8em;
   color: #F6F6F6;
 }
 .ml12 .text-wrapper {
@@ -221,10 +221,10 @@ body {
 /* Start About Me */
 .ml6 {
   position: relative;
-  font-weight: 700;
-  font-size: 6.3em;
+  font-weight: 300;
+  font-size: 3.9em;
   font-family: 'Source Sans Pro', sans-serif;
-
+margin-top: -3rem;
 }
 
 .content {
@@ -259,7 +259,7 @@ body {
   background-position: center;
   background-position: center;
   color: #F6F6F6;
-  height: 1100px;
+  height: 900px;
   width:auto;
 }
 
@@ -316,31 +316,31 @@ span{
 
 /* Start Skills */
 .ml13 {
-  font-size: 6.9em;
+  font-size: 3.9em;
   font-family: 'Source Sans Pro', sans-serif;
   text-transform: uppercase;
-  font-weight: 900;
+  font-weight: 300;
   margin-left: 2rem;
   margin-top: -3rem;
 }
 
 .ml14 {
-  font-size: 6.9em;
+  font-size: 3.9em;
   font-family: 'Source Sans Pro', sans-serif;
   text-transform: uppercase;
   /* letter-spacing: 0.5em; */
-  font-weight: 900;
+  font-weight: 300;
   margin-left: 2rem;
   margin-top: -4rem;
   margin-bottom: 1rem;
 }
 
 .ml21 {
-  font-size: 4.9em;
+  font-size: 3.9em;
   font-family: 'Source Sans Pro', sans-serif;
   text-transform: uppercase;
   /* letter-spacing: 0.5em; */
-  font-weight: 900;
+  font-weight: 300;
   margin-left: 2rem;
   margin-top: -4rem;
   margin-bottom: 1rem;
@@ -364,7 +364,6 @@ hr{
 }
 .projects h3{
   font-family: 'Oswald', sans-serif;
-  font-weight: bold;
 }
 
 .projects p{
@@ -445,8 +444,18 @@ h1{
   max-height: 300px;
 }
 
+#icon{
+  width:15vw;
+}
+
 .projects{
-  height: 1250px;
+  height: 780px;
+}
+.content{
+  height: 600px;
+}
+.skill{
+  height: 750px;
 }
 
 #icon{
