@@ -185,10 +185,10 @@ body {
 
 /* Start Junior Developer */
 .ml12 {
-  margin-left: 3rem;
-  font-weight: 300;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 4.8em;
+  margin-left: 3rem;
+  font-weight: 300;
   color: #F6F6F6;
 }
 .ml12 .text-wrapper {
